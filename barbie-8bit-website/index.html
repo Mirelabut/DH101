@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>✨ BARBIE 8-BIT WORLD ✨</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="star-bg"></div>
+    
+    <header>
+        <div class="header-content">
+            <h1 class="glitch" data-text="BARBIE WORLD">BARBIE WORLD</h1>
+            <p class="pixel-text">8-BIT EDITION</p>
+        </div>
+    </header>
+
+    <nav class="pixel-nav">
+        <button class="nav-btn active" data-section="home">HOME</button>
+        <button class="nav-btn" data-section="gallery">GALLERY</button>
+        <button class="nav-btn" data-section="games">MINI GAMES</button>
+        <button class="nav-btn" data-section="cv">CV</button>
+        <button class="nav-btn" data-section="about">ABOUT</button>
+    </nav>
+
+    <main>
+        <!-- HOME SECTION -->
+        <section id="home" class="section active">
+            <div class="container">
+                <div class="welcome-box">
+                    <p class="big-text">✨ WELCOME TO BARBIE'S 8-BIT ADVENTURE ✨</p>
+                    <p class="pixel-text">Press START to begin</p>
+                </div>
+                
+                <div class="character-container">
+                    <div class="barbie-pixel">
+                        <div class="head"></div>
+                        <div class="body"></div>
+                        <div class="legs"></div>
+                    </div>
+                </div>
+
+                <div class="decorative-boxes">
+                    <div class="deco-box pink">PINK</div>
+                    <div class="deco-box magenta">MAGIC</div>
+                    <div class="deco-box hot-pink">GLAM</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- GALLERY SECTION -->
+        <section id="gallery" class="section">
+            <div class="container">
+                <h2 class="pixel-text">8-BIT BARBIE GALLERY</h2>
+                <div class="gallery-grid">
+                    <div class="pixel-art dreamhouse"></div>
+                    <div class="pixel-art car"></div>
+                    <div class="pixel-art shoe"></div>
+                    <div class="pixel-art heart"></div>
+                    <div class="pixel-art crown"></div>
+                    <div class="pixel-art star"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- MINI GAMES SECTION -->
+        <section id="games" class="section">
+            <div class="container">
+                <h2 class="pixel-text">MINI GAMES</h2>
+                
+                <div class="game-container">
+                    <h3>🎮 CLICK THE PIXELS</h3>
+                    <p class="pixel-text">Click as many pink pixels as you can!</p>
+                    <div class="game-board">
+                        <div id="gameArea"></div>
+                    </div>
+                    <div class="score-display">
+                        <p>SCORE: <span id="score">0</span></p>
+                        <button id="startGameBtn" class="pixel-btn">START GAME</button>
+                    </div>
+                </div>
+
+                <div class="game-container">
+                    <h3>🌈 BARBIE'S COLOR QUIZ</h3>
+                    <p class="pixel-text">What's Barbie's favorite color?</p>
+                    <div id="quizArea"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CV SECTION -->
+        <section id="cv" class="section">
+            <div class="container">
+                <h2 class="pixel-text">CURRICULUM VITAE</h2>
+                <div class="cv-content">
+                    <div class="cv-header">
+                        <h3 style="margin-bottom: 10px;">Mirela Butnaru</h3>
+                        <p style="font-size: 0.85rem; margin-bottom: 5px;">109 Chapin Place, Granville, Ohio 43023</p>
+                        <p style="font-size: 0.85rem;">📧 butnarum@denison.edu | 📱 919-316-9797</p>
+                    </div>
+
+                    <div class="cv-section">
+                        <h4>EDUCATION</h4>
+                        <div class="cv-item">
+                            <p class="cv-title">PhD in Romance Languages and Literatures</p>
+                            <p class="cv-subtitle">University of Cincinnati (2015)</p>
+                            <p class="cv-text">Thesis: Confluencias de los géneros literarios en la literatura centroamericana</p>
+                        </div>
+                        <div class="cv-item">
+                            <p class="cv-title">Graduate Studies</p>
+                            <p class="cv-subtitle">University of Alberta (2004 - 2009)</p>
+                        </div>
+                        <div class="cv-item">
+                            <p class="cv-title">Master of Arts in Spanish</p>
+                            <p class="cv-subtitle">University of Western Ontario (2002 - 2004)</p>
+                        </div>
+                        <div class="cv-item">
+                            <p class="cv-title">Bachelor of Arts in Philology</p>
+                            <p class="cv-subtitle">University Al. I. Cuza, Iasi, Romania (1997 - 2001)</p>
+                            <p class="cv-text">Double Major: Spanish Language and Literature, English Language and Literature</p>
+                        </div>
+                    </div>
+
+                    <div class="cv-section">
+                        <h4>RESEARCH INTERESTS</h4>
+                        <ul class="cv-list">
+                            <li>Central American literature and culture</li>
+                            <li>Testimonial narrative / dictatorship literature</li>
+                            <li>20th-century Latin American literatures and cultures</li>
+                            <li>Language teaching methodologies</li>
+                        </ul>
+                    </div>
+
+                    <div class="cv-section">
+                        <h4>CURRENT POSITION</h4>
+                        <div class="cv-item">
+                            <p class="cv-title">Assistant Professor (Non-Tenure)</p>
+                            <p class="cv-subtitle">Denison University (August 2023 - Present)</p>
+                            <p class="cv-text">Academic Advisor, Teaching Spanish, Writing, and Communication Skills</p>
+                        </div>
+                    </div>
+
+                    <div class="cv-section">
+                        <h4>PUBLICATIONS</h4>
+                        <div class="cv-item">
+                            <p class="cv-text"><strong>Book:</strong> Centroamérica: Literatura revolucionaria y revoluciones literarias. Pliegos, 2022. Madrid, Spain.</p>
+                            <p class="cv-text"><strong>Article:</strong> "La escritura como mecanismo de disidencia." Voces del Caribe, vol. 7, no. 1, 2016.</p>
+                            <p class="cv-text"><strong>Book Review:</strong> "Desdén al infortunio..." Revista Chilena de Literatura, no. 82, 2012.</p>
+                        </div>
+                    </div>
+
+                    <div class="cv-section">
+                        <h4>LANGUAGES</h4>
+                        <ul class="cv-list">
+                            <li>Romanian: Native</li>
+                            <li>Spanish: Near-native</li>
+                            <li>English: Near-native</li>
+                            <li>French: Intermediate</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="pixel-text">ABOUT THIS WORLD</h2>
+                <div class="about-content">
+                    <p class="pixel-text">Welcome to the ultimate 8-bit Barbie experience!</p>
+                    <p class="pixel-text">This retro-futuristic world celebrates:</p>
+                    <ul class="pixel-list">
+                        <li>✨ BARBIE PINK AESTHETICS</li>
+                        <li>🎮 RETRO 8-BIT GAMING VIBES</li>
+                        <li>💎 GLAMOROUS PIXEL ART</li>
+                        <li>🌟 NOSTALGIC FUN & GAMES</li>
+                        <li>👗 FASHION & FANTASY</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p class="pixel-text">© 2026 BARBIE 8-BIT WORLD | MADE WITH LOVE & PIXELS 💖</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
